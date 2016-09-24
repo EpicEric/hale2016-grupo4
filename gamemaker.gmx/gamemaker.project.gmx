@@ -7,35 +7,20 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\runner</sprite>
-<<<<<<< HEAD
-    <sprite>sprites\blank</sprite>
-=======
+    <sprite>sprites\sprite2</sprite>
     <sprite>sprites\sprite_pista</sprite>
->>>>>>> origin/master
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-<<<<<<< HEAD
-    <objects name="bedroomgame">
-      <object>objects\downwardSpawner</object>
-      <object>objects\badObject</object>
-      <object>objects\goodObject</object>
-    </objects>
-  </objects>
-  <rooms name="rooms">
-    <room>rooms\bedroomgame</room>
-    <room>rooms\mainmenu</room>
-=======
     <objects name="runningame">
       <object>objects\Personagem</object>
       <object>objects\pista</object>
     </objects>
   </objects>
   <rooms name="rooms">
->>>>>>> origin/master
     <room>rooms\runninggame</room>
     <room>rooms\mainmenu</room>
   </rooms>

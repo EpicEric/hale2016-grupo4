@@ -4,12 +4,12 @@
   <xorig>0</xorig>
   <yorigin>0</yorigin>
   <colkind>1</colkind>
-  <coltolerance>0</coltolerance>
+  <coltolerance>255</coltolerance>
   <sepmasks>0</sepmasks>
-  <bboxmode>0</bboxmode>
-  <bbox_left>0</bbox_left>
-  <bbox_right>220</bbox_right>
-  <bbox_top>4</bbox_top>
+  <bboxmode>2</bboxmode>
+  <bbox_left>1</bbox_left>
+  <bbox_right>224</bbox_right>
+  <bbox_top>214</bbox_top>
   <bbox_bottom>407</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
