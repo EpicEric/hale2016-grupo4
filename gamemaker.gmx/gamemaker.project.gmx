@@ -9,7 +9,9 @@
     <sprite>sprites\runner</sprite>
     <sprite>sprites\sprite_pista</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <objects name="runningame">
