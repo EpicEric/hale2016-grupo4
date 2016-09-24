@@ -9,6 +9,8 @@
     <sprite>sprites\runner</sprite>
     <sprite>sprites\sprite2</sprite>
     <sprite>sprites\sprite_pista</sprite>
+    <sprite>sprites\sprite_sol</sprite>
+    <sprite>sprites\sprite_nuvem</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -18,6 +20,9 @@
     <objects name="runningame">
       <object>objects\Personagem</object>
       <object>objects\pista</object>
+      <object>objects\timer</object>
+      <object>objects\sol</object>
+      <object>objects\nuvem</object>
     </objects>
   </objects>
   <rooms name="rooms">

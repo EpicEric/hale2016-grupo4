@@ -57,6 +57,9 @@
     <instance objName="Personagem" x="160" y="384" name="inst_5EC16B7A" locked="0" code="" scaleX="0.428571432828903" scaleY="0.470588237047195" colour="4294967295" rotation="0"/>
     <instance objName="pista" x="-32" y="71" name="inst_609EB72B" locked="0" code="" scaleX="2.64000010490417" scaleY="1.27999997138977" colour="16777215" rotation="0"/>
     <instance objName="pista" x="0" y="608" name="inst_ABF4FE6F" locked="0" code="" scaleX="2.55999994277954" scaleY="1" colour="16777215" rotation="0"/>
+    <instance objName="timer" x="128" y="32" name="inst_AF94A22F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sol" x="736" y="0" name="inst_1540E0E0" locked="0" code="" scaleX="0.473684221506119" scaleY="0.441379308700562" colour="4294967295" rotation="0"/>
+    <instance objName="nuvem" x="544" y="0" name="inst_DB3B7C15" locked="0" code="" scaleX="0.800000011920929" scaleY="0.639999985694885" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
