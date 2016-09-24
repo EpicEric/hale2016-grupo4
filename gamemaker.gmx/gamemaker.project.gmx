@@ -16,6 +16,12 @@
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\map_touch_control.gml</script>
+    <script>scripts\map_touch_init.gml</script>
+    <script>scripts\swipe_check.gml</script>
+    <script>scripts\swipe_direction.gml</script>
+  </scripts>
   <objects name="objects">
     <objects name="runningame">
       <object>objects\Personagem</object>
