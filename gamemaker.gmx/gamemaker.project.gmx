@@ -7,12 +7,19 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\runner</sprite>
+    <sprite>sprites\sprite_pista</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <objects name="runningame">
+      <object>objects\Personagem</object>
+      <object>objects\pista</object>
+    </objects>
+  </objects>
   <rooms name="rooms">
-    <room>rooms\mainmenu</room>
     <room>rooms\runninggame</room>
+    <room>rooms\mainmenu</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
