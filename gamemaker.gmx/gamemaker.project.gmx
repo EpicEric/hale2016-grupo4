@@ -5,9 +5,15 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\runner</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <rooms name="rooms">
+    <room>rooms\mainmenu</room>
+    <room>rooms\runninggame</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
