@@ -11,6 +11,10 @@
     <sprite>sprites\sprite_pista</sprite>
     <sprite>sprites\sprite_sol</sprite>
     <sprite>sprites\sprite_nuvem</sprite>
+    <sprite>sprites\enemies</sprite>
+    <sprite>sprites\cat</sprite>
+    <sprite>sprites\dust</sprite>
+    <sprite>sprites\smog</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -21,6 +25,8 @@
     <script>scripts\map_touch_init.gml</script>
     <script>scripts\swipe_check.gml</script>
     <script>scripts\swipe_direction.gml</script>
+    <script>scripts\createEnemy.gml</script>
+    <script>scripts\initCharacter.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="runningame">
@@ -30,7 +36,11 @@
       <object>objects\sol</object>
       <object>objects\nuvem</object>
     </objects>
+    <object>objects\enemy</object>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\runningStart</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\runninggame</room>
     <room>rooms\mainmenu</room>
