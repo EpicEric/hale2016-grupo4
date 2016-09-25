@@ -72,7 +72,7 @@
           <argument>
             <kind>1</kind>
             <string>if (global.speed &lt; 2.1) {
-   global.speed += 0.1;
+   global.speed += 0.2;
    Personagem.image_speed = global.speed;
    
    run_button.image_index = 1;

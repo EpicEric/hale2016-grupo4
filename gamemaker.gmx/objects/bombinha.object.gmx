@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>image_index = 0;
 image_speed = 0;
+score += 1000;
 target[0, 0] = 5; target[0, 1] = 5;
 target[1, 0] = 50; target[1, 1] = 50;
 target[2, 0] = 100; target[2, 1] = 80;

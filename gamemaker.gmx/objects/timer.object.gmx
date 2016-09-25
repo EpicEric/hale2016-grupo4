@@ -274,11 +274,11 @@ alarm_set(4, 90 + irandom(30));
           <argument>
             <kind>1</kind>
             <string>if(random(10) &gt; 5){
-    alarm_set(3, 200);
+    alarm_set(3, 50);
     global.weatherChange = ! global.chuva;
     global.chuva = true;
     global.speed_limit = 0.75;
-    global.decreaseStamina = false;
+    global.decreaseStamina = true;
     esta_chovendo = true;
     nuvem.visible = true;
     sol.visible = false;
