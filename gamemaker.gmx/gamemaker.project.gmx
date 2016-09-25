@@ -19,6 +19,9 @@
     <sprite>sprites\sprite8</sprite>
     <sprite>sprites\sprite_casa</sprite>
     <sprite>sprites\blank</sprite>
+    <sprite>sprites\mark</sprite>
+    <sprite>sprites\redline</sprite>
+    <sprite>sprites\speed_bar</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -32,6 +35,7 @@
     <script>scripts\swipe_direction.gml</script>
     <script>scripts\createEnemy.gml</script>
     <script>scripts\initCharacter.gml</script>
+    <script>scripts\moveMark.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\sansserif</font>
@@ -47,6 +51,9 @@
         <objects name="button">
           <object>objects\run_button</object>
           <object>objects\button_area</object>
+          <object>objects\bar</object>
+          <object>objects\limit</object>
+          <object>objects\stamina_mark</object>
         </objects>
       </objects>
       <object>objects\enemy</object>

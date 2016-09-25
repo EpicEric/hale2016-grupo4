@@ -10,7 +10,11 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>script_execute(createEnemy);</code>
+  <code>script_execute(createEnemy);
+
+global.speed_limit = 1.5;
+global.weatherChange = false;
+global.chuva = false;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -58,10 +62,13 @@
     <instance objName="timer" x="128" y="32" name="inst_AF94A22F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sol" x="736" y="0" name="inst_1540E0E0" locked="0" code="" scaleX="0.473684221506119" scaleY="0.441379308700562" colour="4294967295" rotation="0"/>
     <instance objName="nuvem" x="544" y="0" name="inst_DB3B7C15" locked="0" code="" scaleX="0.800000011920929" scaleY="0.639999985694885" colour="4294967295" rotation="0"/>
-    <instance objName="run_button" x="32" y="640" name="inst_624287B6" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="button_area" x="15" y="630" name="inst_BB57C533" locked="0" code="" scaleX="2.5" scaleY="2.5" colour="4294967295" rotation="0"/>
+    <instance objName="run_button" x="32" y="576" name="inst_624287B6" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="button_area" x="15" y="566" name="inst_BB57C533" locked="0" code="" scaleX="2.5" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="swipe_control" x="0" y="0" name="inst_B54946AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="casa" x="992" y="128" name="inst_EAAF9998" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bar" x="131" y="617" name="inst_440959C2" locked="0" code="" scaleX="0.490000009536743" scaleY="0.756756782531738" colour="4294967295" rotation="0"/>
+    <instance objName="limit" x="125" y="579" name="inst_EF888A0A" locked="0" code="" scaleX="0.962962985038757" scaleY="0.670000016689301" colour="4294967295" rotation="0"/>
+    <instance objName="stamina_mark" x="145" y="622" name="inst_8559A76B" locked="0" code="" scaleX="0.75" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
