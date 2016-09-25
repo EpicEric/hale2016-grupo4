@@ -90,6 +90,8 @@ else {
     y = target_y;
 }
 
+background_hspeed[7] = - 5 * global.speed;
+
 </string>
           </argument>
         </arguments>
