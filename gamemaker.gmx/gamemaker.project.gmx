@@ -94,6 +94,7 @@
     <room>rooms\runninggame</room>
     <room>rooms\bedroomgame</room>
     <room>rooms\asthma_attack</room>
+    <room>rooms\disclaimer</room>
     <rooms name="tutorial">
       <room>rooms\tut1</room>
       <room>rooms\tut2</room>

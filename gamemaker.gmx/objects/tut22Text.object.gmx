@@ -47,7 +47,7 @@ draw_set_font(sansserif);
         <arguments>
           <argument>
             <kind>2</kind>
-            <string>Tap the buttons for each action before going back to running!</string>
+            <string>Tap the appropriate image for each action before going back to running!</string>
           </argument>
           <argument>
             <kind>0</kind>

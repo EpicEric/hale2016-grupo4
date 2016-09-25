@@ -47,7 +47,7 @@ draw_set_font(sansserif);
         <arguments>
           <argument>
             <kind>2</kind>
-            <string>If it's cold and humid, touch a house for shelter! You can run fine when the sun appears.</string>
+            <string>If it's cold and humid, touch a nearby house for shelter! You can run fine when the sun appears.</string>
           </argument>
           <argument>
             <kind>0</kind>

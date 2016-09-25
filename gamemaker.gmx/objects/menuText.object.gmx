@@ -47,7 +47,7 @@ draw_set_font(sansserif);
         <arguments>
           <argument>
             <kind>2</kind>
-            <string>(c) Traidos pelo Strogonoff 2016</string>
+            <string>(c) Strogonoff Studios 2016</string>
           </argument>
           <argument>
             <kind>0</kind>

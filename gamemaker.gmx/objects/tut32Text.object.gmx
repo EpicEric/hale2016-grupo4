@@ -47,7 +47,7 @@ draw_set_font(sansserif);
         <arguments>
           <argument>
             <kind>2</kind>
-            <string>Bring safe objects inside your room and have a nice sleep!</string>
+            <string>Bring safe objects inside your room. Sweet dreams!</string>
           </argument>
           <argument>
             <kind>0</kind>
