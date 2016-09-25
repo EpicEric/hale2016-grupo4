@@ -27,7 +27,8 @@
             <kind>1</kind>
             <string>global.speed = 1.5;
 global.game_running = true;
-Personagem.image_speed = 1.5;
+image_speed = 1.5;
+stamina = 1;
 lane = 1
 alarm_set(0, 20);
 </string>
@@ -89,8 +90,18 @@ else {
     y = target_y;
 }
 hspeed = prev_hspeed;
-if(!casa.esta_na_casa)
+if(!casa.esta_na_casa) 
     background_hspeed[7] = - 5 * global.speed;
+
+// Cheacks stamina
+
+if (global.speed &gt; global.speed_limit &amp;&amp; global.decreaseStamina) {
+    self.stamina -= (global.speed - global.speed_limit) * 2;
+    self.stamina = max(0, self.stamina);
+} else if (global.speed &lt; 0.75 * global.speed_limit) {
+    self.stamina += 10;
+    self.stamina = min(self.stamina, 100);
+}
 
 </string>
           </argument>
