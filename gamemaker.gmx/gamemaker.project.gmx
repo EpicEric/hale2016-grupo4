@@ -25,6 +25,7 @@
       <sprite>sprites\TutorialButtonSprite</sprite>
       <sprite>sprites\MenuButtonSprite</sprite>
       <sprite>sprites\NextButtonSprite</sprite>
+      <sprite>sprites\DisclaimerSprite</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -73,6 +74,7 @@
       <object>objects\menuButton</object>
       <object>objects\nextButton</object>
       <object>objects\backButton</object>
+      <object>objects\disclaimerButton</object>
       <object>objects\title</object>
       <object>objects\menuText</object>
       <object>objects\tut11Text</object>
@@ -82,6 +84,7 @@
       <object>objects\tut22Text</object>
       <object>objects\tut31Text</object>
       <object>objects\tut32Text</object>
+      <object>objects\disclaimerText</object>
     </objects>
   </objects>
   <timelines name="timelines">
