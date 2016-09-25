@@ -103,7 +103,7 @@ image_index = irandom(3);
         </arguments>
       </action>
     </event>
-    <event eventtype="6" enumb="0">
+    <event eventtype="6" enumb="1">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -163,7 +163,7 @@ if(!timer.esta_chovendo &amp;&amp; esta_na_casa) {
           <argument>
             <kind>1</kind>
             <string>casa.x = room_width;
-
+image_index = irandom(3);
 
 
 
