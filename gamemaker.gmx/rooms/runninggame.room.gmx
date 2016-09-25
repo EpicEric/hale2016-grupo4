@@ -14,7 +14,8 @@
 
 global.speed_limit = 1.5;
 global.weatherChange = false;
-global.chuva = false;</code>
+global.chuva = false;
+global.decreaseStamina = true;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

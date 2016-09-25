@@ -118,7 +118,7 @@ background_hspeed[7] = - 5 * global.speed;
 
 // Cheacks stamina
 
-if (global.speed &gt; global.speed_limit) {
+if (global.speed &gt; global.speed_limit &amp;&amp; global.decreaseStamina) {
     self.stamina -= (global.speed - global.speed_limit) * 2;
     self.stamina = max(0, self.stamina);
 } else if (global.speed &lt; 0.75 * global.speed_limit) {
