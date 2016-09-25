@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\cough</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\runner</sprite>
     <sprite>sprites\sprite2</sprite>
@@ -15,9 +17,11 @@
     <sprite>sprites\sprite_grass</sprite>
     <sprite>sprites\button</sprite>
     <sprite>sprites\sprite8</sprite>
-    <sprite>sprites\speed_bar</sprite>
+    <sprite>sprites\sprite_casa</sprite>
+    <sprite>sprites\blank</sprite>
     <sprite>sprites\mark</sprite>
     <sprite>sprites\redline</sprite>
+    <sprite>sprites\speed_bar</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -33,6 +37,9 @@
     <script>scripts\initCharacter.gml</script>
     <script>scripts\moveMark.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\sansserif</font>
+  </fonts>
   <objects name="objects">
     <objects name="runningame">
       <object>objects\Personagem</object>
@@ -42,26 +49,34 @@
       <object>objects\grass</object>
       <objects name="gui">
         <objects name="button">
-          <object>objects\limit</object>
           <object>objects\run_button</object>
           <object>objects\button_area</object>
           <object>objects\bar</object>
+          <object>objects\limit</object>
           <object>objects\stamina_mark</object>
         </objects>
       </objects>
       <object>objects\enemy</object>
+      <object>objects\casa</object>
     </objects>
     <object>objects\swipe_control</object>
     <object>objects\clickable_target</object>
+    <objects name="roomgame">
+      <object>objects\fallingObject</object>
+      <object>objects\goodRoom</object>
+      <object>objects\sleepingController</object>
+      <object>objects\badRoom</object>
+      <object>objects\downwardSpawner</object>
+    </objects>
   </objects>
   <timelines name="timelines">
-    <timeline>timelines\running</timeline>
     <timeline>timelines\enemySpawn</timeline>
     <timeline>timelines\button_press</timeline>
-    <timeline>timelines\rain</timeline>
+    <timeline>timelines\timeline3</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\runninggame</room>
+    <room>rooms\bedroomgame</room>
     <room>rooms\mainmenu</room>
     <room>rooms\asthma_attack</room>
   </rooms>
