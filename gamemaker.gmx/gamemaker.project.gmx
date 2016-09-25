@@ -72,9 +72,9 @@
   </timelines>
   <rooms name="rooms">
     <room>rooms\runninggame</room>
+    <room>rooms\mainmenu</room>
     <room>rooms\asthma_attack</room>
     <room>rooms\bedroomgame</room>
-    <room>rooms\mainmenu</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
