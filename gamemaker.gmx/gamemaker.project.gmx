@@ -31,7 +31,6 @@
   </scripts>
   <objects name="objects">
     <objects name="runningame">
-      <object>objects\pista</object>
       <object>objects\Personagem</object>
       <object>objects\timer</object>
       <object>objects\sol</object>
