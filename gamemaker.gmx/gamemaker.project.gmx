@@ -115,9 +115,9 @@
     <timeline>timelines\timeline3</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\mainmenu</room>
     <room>rooms\bedroomgame</room>
     <room>rooms\runninggame</room>
-    <room>rooms\mainmenu</room>
     <room>rooms\asthma_attack</room>
     <room>rooms\disclaimer</room>
     <rooms name="tutorial">

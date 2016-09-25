@@ -61,7 +61,7 @@ if state &lt; 5 {
     image_index = state;
     texto_ataque.image_index = state;
 } else {
-    show_debug_message("ACABOU");
+    room_goto(bedroomgame);
 }
 </string>
           </argument>

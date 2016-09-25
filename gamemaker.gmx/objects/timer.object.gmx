@@ -317,8 +317,8 @@ alarm_set(4, 90 + irandom(30));
           <argument>
             <kind>1</kind>
             <string>progress += global.speed;
-show_debug_message("Speed: " + string(global.speed) + " - Progress: " + string(100 * progress / 5000));
-if global.game_running and progress &gt; 3000 {
+show_debug_message("Speed: " + string(global.speed) + " - Progress: " + string(100 * progress / 1500));
+if global.game_running and progress &gt; 1500 {
     global.game_running = false;
     alarm_set(2, 180);
 }

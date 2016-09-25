@@ -32,7 +32,7 @@ if bombinha.state &lt; 5 {
     texto_ataque.image_index = bombinha.state;
 } else {
     if(bombinha.state == 5) {
-        room_goto(runninggame);
+        room_goto(bedroomgame);
     }
 }
 </string>

@@ -103,7 +103,7 @@ if (global.speed &gt; global.speed_limit &amp;&amp; global.decreaseStamina) {
     show_debug_message(self.stamina);
     self.stamina = max(0, self.stamina);
 } else if (global.speed &lt; 0.75 * global.speed_limit) {
-    self.stamina += 10;
+    self.stamina *= 1.1;
     self.stamina = min(self.stamina, 100);
 }
 
