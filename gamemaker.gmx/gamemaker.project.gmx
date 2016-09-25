@@ -17,6 +17,7 @@
     <sprite>sprites\sprite8</sprite>
     <sprite>sprites\speed_bar</sprite>
     <sprite>sprites\mark</sprite>
+    <sprite>sprites\redline</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -45,6 +46,7 @@
           <object>objects\run_button</object>
           <object>objects\button_area</object>
           <object>objects\bar</object>
+          <object>objects\stamina_mark</object>
         </objects>
       </objects>
       <object>objects\enemy</object>
