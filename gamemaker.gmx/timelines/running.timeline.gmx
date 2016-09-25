@@ -19,12 +19,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.speed &gt; 0.2) {
+            <string>if (global.speed &gt; 0.75) {
   global.speed *= 0.85;
   Personagem.image_speed = global.speed;
+} else if (global.speed &gt; 0.2) {
+  global.speed *= 0.65;
+  Personagem.image_speed = global.speed;
 }
-
-show_debug_message(Personagem.image_speed);
 </string>
           </argument>
         </arguments>

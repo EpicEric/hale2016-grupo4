@@ -15,6 +15,8 @@
     <sprite>sprites\sprite_grass</sprite>
     <sprite>sprites\button</sprite>
     <sprite>sprites\sprite8</sprite>
+    <sprite>sprites\speed_bar</sprite>
+    <sprite>sprites\mark</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -28,6 +30,7 @@
     <script>scripts\swipe_direction.gml</script>
     <script>scripts\createEnemy.gml</script>
     <script>scripts\initCharacter.gml</script>
+    <script>scripts\moveMark.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="runningame">
@@ -38,8 +41,10 @@
       <object>objects\grass</object>
       <objects name="gui">
         <objects name="button">
+          <object>objects\limit</object>
           <object>objects\run_button</object>
           <object>objects\button_area</object>
+          <object>objects\bar</object>
         </objects>
       </objects>
       <object>objects\enemy</object>
@@ -51,6 +56,7 @@
     <timeline>timelines\running</timeline>
     <timeline>timelines\enemySpawn</timeline>
     <timeline>timelines\button_press</timeline>
+    <timeline>timelines\rain</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\runninggame</room>
