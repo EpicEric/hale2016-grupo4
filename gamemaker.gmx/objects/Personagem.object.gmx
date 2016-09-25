@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>global.speed = 1.5;
 global.game_running = true;
+global.decreaseStamina = true;
 image_speed = 1.5;
 lane = 1
 alarm_set(0, 20);
@@ -188,7 +189,7 @@ if (global.speed &gt; global.speed_limit &amp;&amp; global.decreaseStamina) {
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>asthma_attack</room>
+            <room>-100</room>
           </argument>
         </arguments>
       </action>
