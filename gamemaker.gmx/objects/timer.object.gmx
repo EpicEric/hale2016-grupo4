@@ -149,6 +149,7 @@
             <kind>1</kind>
             <string>with (rain_obj)
     instance_destroy();
+esta_chovendo = false;
 nuvem.visible = false;
 sol.visible = true;
 </string>
@@ -174,6 +175,8 @@ sol.visible = true;
           <argument>
             <kind>1</kind>
             <string>instance_create(0, 0, rain_obj);
+if casa.esta_na_casa == 0
+    global.speed *= 0.5;
 alarm_set(4, 90 + irandom(30));
 </string>
           </argument>
@@ -267,13 +270,12 @@ alarm_set(4, 90 + irandom(30));
           <argument>
             <kind>1</kind>
             <string>if(random(10) &gt; 5){
-    alarm_set(3, 60);
+    alarm_set(3, 100);
     esta_chovendo = true;
     nuvem.visible = true;
     sol.visible = false;
     alarm_set(0, 300);
 } else {
-    esta_chovendo = false;
     nuvem.visible = false;
     sol.visible = true;
     if counter &gt; 40 counter = 0.95*counter;

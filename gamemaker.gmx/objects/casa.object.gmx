@@ -98,11 +98,8 @@ image_index = irandom(3);
           <argument>
             <kind>1</kind>
             <string>if(!timer.esta_chovendo &amp;&amp; esta_na_casa) {
-    script_execute(createEnemy);
     Personagem.visible = 1;
     background_hspeed[7] = -10;
-    casa.hspeed = -10;
-    enemy.hspeed = -10;
     esta_na_casa = 0;
 }
 casa.hspeed = background_hspeed[7];
@@ -111,7 +108,7 @@ casa.hspeed = background_hspeed[7];
         </arguments>
       </action>
     </event>
-    <event eventtype="6" enumb="0">
+    <event eventtype="6" enumb="4">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -128,16 +125,17 @@ casa.hspeed = background_hspeed[7];
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (esta_na_casa == 0 &amp;&amp; Personagem.lane == 0 &amp;&amp; timer.esta_chovendo &amp;&amp; abs(casa.x - Personagem.x) &lt; 50) {
+            <string>show_debug_message("esta_na_casa = " + string(esta_na_casa));
+if esta_na_casa == 0 {
+    show_debug_message("Personagem.lane = " + string(Personagem.lane));
+    show_debug_message("abs(casa.x - Personagem.x) = " + string(abs(casa.x - Personagem.x)));
+}
+if (esta_na_casa == 0 and Personagem.lane == 0 and abs(casa.x - Personagem.x) &lt; 100) {
+    show_debug_message("Entering home");
     Personagem.visible = 0;
     background_hspeed[7] = 0;
     casa.hspeed = 0;
-    enemy.hspeed = 0;
     esta_na_casa = 1;
-    with(enemy){
-        instance_destroy();
-    }
-    
 }
 </string>
           </argument>
