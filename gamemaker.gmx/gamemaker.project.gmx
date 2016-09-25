@@ -29,6 +29,7 @@
   <backgrounds name="background">
     <background>background\background0</background>
     <background>background\background1_grass</background>
+    <background>background\roomgame_background</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
