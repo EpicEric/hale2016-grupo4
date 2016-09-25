@@ -12,9 +12,6 @@
     <sprite>sprites\sprite_sol</sprite>
     <sprite>sprites\sprite_nuvem</sprite>
     <sprite>sprites\enemies</sprite>
-    <sprite>sprites\cat</sprite>
-    <sprite>sprites\dust</sprite>
-    <sprite>sprites\smog</sprite>
     <sprite>sprites\sprite_grass</sprite>
   </sprites>
   <backgrounds name="background">
@@ -41,11 +38,12 @@
       <objects name="gui">
         <object>objects\run_button</object>
       </objects>
+      <object>objects\enemy</object>
     </objects>
-    <object>objects\enemy</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\running</timeline>
+    <timeline>timelines\enemySpawn</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\runninggame</room>
