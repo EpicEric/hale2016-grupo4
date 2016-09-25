@@ -38,11 +38,15 @@
     </objects>
     <object>objects\enemy</object>
     <object>objects\swipe_control</object>
+    <objects name="asthma_attack">
+      <object>objects\clickable_target</object>
+    </objects>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\runningStart</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\asthma_attack</room>
     <room>rooms\runninggame</room>
     <room>rooms\mainmenu</room>
   </rooms>
