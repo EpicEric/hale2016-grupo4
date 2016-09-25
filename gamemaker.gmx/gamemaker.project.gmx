@@ -59,6 +59,12 @@
       <object>objects\badRoom</object>
       <object>objects\downwardSpawner</object>
     </objects>
+    <objects name="mainmenu">
+      <object>objects\learnButton</object>
+      <object>objects\playButton</object>
+      <object>objects\menuButton</object>
+      <object>objects\title</object>
+    </objects>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\running</timeline>
@@ -70,6 +76,7 @@
     <room>rooms\bedroomgame</room>
     <room>rooms\mainmenu</room>
     <room>rooms\asthma_attack</room>
+    <room>rooms\tutorial</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
