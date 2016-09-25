@@ -31,7 +31,9 @@ if bombinha.state &lt; 5 {
     bombinha.image_index = bombinha.state;
     texto_ataque.image_index = bombinha.state;
 } else {
-    show_debug_message("ACABOU");
+    if(bombinha.state == 5) {
+        room_goto(runninggame);
+    }
 }
 </string>
           </argument>
