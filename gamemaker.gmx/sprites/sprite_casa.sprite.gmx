@@ -21,5 +21,7 @@
   <height>179</height>
   <frames>
     <frame index="0">images\sprite_casa_0.png</frame>
+    <frame index="1">images\sprite_casa_1.png</frame>
+    <frame index="2">images\sprite_casa_2.png</frame>
   </frames>
 </sprite>
