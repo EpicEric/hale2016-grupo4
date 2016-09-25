@@ -1,0 +1,51 @@
+<profiles>
+<profile version="1.0" name="Padrão" current="true">
+  <PublishFormatProperties enabled="true">
+    <defaultNames>1</defaultNames>
+    <jpeg>0</jpeg>
+    <oam>0</oam>
+    <jpegDefaultName>1</jpegDefaultName>
+    <oamDefaultName>1</oamDefaultName>
+    <jpegFileName>botao.jpg</jpegFileName>
+    <oamFileName>botao.oam</oamFileName>
+    <publishFormat id="0D55AB30-824B-4C5E-8D18-5695F13B1198">1</publishFormat>
+    <publishFormat id="BBC1F406-65F2-4219-9304-FA48C7549E44">0</publishFormat>
+  </PublishFormatProperties>
+  <PublishJpegProperties enabled="true">
+    <Width>550</Width>
+    <Height>400</Height>
+    <Progressive>0</Progressive>
+    <DPI>4718592</DPI>
+    <Size>0</Size>
+    <Quality>80</Quality>
+    <MatchMovieDim>1</MatchMovieDim>
+  </PublishJpegProperties>
+  <PublishOamProperties enabled="true">
+    <Width>550</Width>
+    <Height>400</Height>
+    <CurrentFramePNG>1</CurrentFramePNG>
+    <CustomPNG>0</CustomPNG>
+    <PNGFilePath></PNGFilePath>
+    <Transparency>0</Transparency>
+  </PublishOamProperties>
+  <PublishProperties id="0D55AB30-824B-4C5E-8D18-5695F13B1198" name="WebGL (Preview)" otf="true" enabled="true">
+    <Property name="assetsPath">assets/</Property>
+    <Property name="default">true</Property>
+    <Property name="exportHTML">true</Property>
+    <Property name="filename">Untitled-1.json</Property>
+    <Property name="includeHiddenLayers">true</Property>
+    <Property name="libraryPath">libs/</Property>
+    <Property name="loop">true</Property>
+    <Property name="version">0.1</Property>
+  </PublishProperties>
+  <PublishProperties id="BBC1F406-65F2-4219-9304-FA48C7549E44" name="SVG Image" otf="true" enabled="true">
+    <Property name="copy">true</Property>
+    <Property name="default">true</Property>
+    <Property name="embed">false</Property>
+    <Property name="filename">Untitled-1.svg</Property>
+    <Property name="imagesPath">images</Property>
+    <Property name="includeHiddenLayers">true</Property>
+    <Property name="version">0.1</Property>
+  </PublishProperties>
+</profile>
+</profiles>
