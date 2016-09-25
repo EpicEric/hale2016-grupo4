@@ -26,6 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>global.speed = 1.5;
+global.swipe_start_x = mouse_x;
+global.swipe_start_y = mouse_y;
 global.game_running = true;
 global.decreaseStamina = true;
 image_speed = 1.5;
@@ -189,7 +191,7 @@ if (global.speed &gt; global.speed_limit &amp;&amp; global.decreaseStamina) {
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>-100</room>
+            <room>asthma_attack</room>
           </argument>
         </arguments>
       </action>
