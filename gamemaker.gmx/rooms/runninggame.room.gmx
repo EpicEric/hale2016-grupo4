@@ -58,11 +58,10 @@
     <instance objName="timer" x="128" y="32" name="inst_AF94A22F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sol" x="736" y="0" name="inst_1540E0E0" locked="0" code="" scaleX="0.473684221506119" scaleY="0.441379308700562" colour="4294967295" rotation="0"/>
     <instance objName="nuvem" x="544" y="0" name="inst_DB3B7C15" locked="0" code="" scaleX="0.800000011920929" scaleY="0.639999985694885" colour="4294967295" rotation="0"/>
-    <instance objName="pista" x="0" y="192" name="inst_E1962FD9" locked="0" code="" scaleX="3.35999989509583" scaleY="0.25" colour="4294967295" rotation="0"/>
-    <instance objName="pista" x="0" y="512" name="inst_60908626" locked="0" code="" scaleX="3.35999989509583" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="run_button" x="32" y="640" name="inst_624287B6" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="button_area" x="15" y="630" name="inst_BB57C533" locked="0" code="" scaleX="2.5" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="swipe_control" x="0" y="0" name="inst_B54946AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="casa" x="992" y="128" name="inst_EAAF9998" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
