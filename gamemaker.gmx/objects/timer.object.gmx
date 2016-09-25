@@ -149,6 +149,9 @@
             <kind>1</kind>
             <string>with (rain_obj)
     instance_destroy();
+global.weatherChange = true;
+global.chuva = false;
+global.speed_limit = 1.5;    
 esta_chovendo = false;
 nuvem.visible = false;
 sol.visible = true;
@@ -175,8 +178,9 @@ sol.visible = true;
           <argument>
             <kind>1</kind>
             <string>instance_create(0, 0, rain_obj);
+global.decreaseStamina = true;
 if casa.esta_na_casa == 0
-    global.speed *= 0.5;
+    global.speed_limit = 0.75;
 alarm_set(4, 90 + irandom(30));
 </string>
           </argument>
@@ -271,11 +275,18 @@ alarm_set(4, 90 + irandom(30));
             <kind>1</kind>
             <string>if(random(10) &gt; 5){
     alarm_set(3, 100);
+    global.weatherChange = ! global.chuva;
+    global.chuva = true;
+    global.speed_limit = 0.75;
+    global.decreaseStamina = false;
     esta_chovendo = true;
     nuvem.visible = true;
     sol.visible = false;
     alarm_set(0, 300);
 } else {
+    global.weatherChange = global.chuva;
+    global.chuva = false;
+    global.speed_limit = 1.5;
     nuvem.visible = false;
     sol.visible = true;
     if counter &gt; 40 counter = 0.95*counter;
