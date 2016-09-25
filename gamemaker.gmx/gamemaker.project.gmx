@@ -19,6 +19,7 @@
     <sprite>sprites\sprite8</sprite>
     <sprite>sprites\sprite_casa</sprite>
     <sprite>sprites\blank</sprite>
+    <sprite>sprites\rain</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -61,6 +62,7 @@
       <object>objects\badRoom</object>
       <object>objects\downwardSpawner</object>
     </objects>
+    <object>objects\rain_obj</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\enemySpawn</timeline>

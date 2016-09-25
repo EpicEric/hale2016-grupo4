@@ -7,18 +7,18 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>0</bbox_left>
-  <bbox_right>199</bbox_right>
-  <bbox_top>0</bbox_top>
-  <bbox_bottom>199</bbox_bottom>
+  <bbox_left>20</bbox_left>
+  <bbox_right>295</bbox_right>
+  <bbox_top>9</bbox_top>
+  <bbox_bottom>143</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>200</width>
-  <height>200</height>
+  <width>300</width>
+  <height>150</height>
   <frames>
     <frame index="0">images\sprite_nuvem_0.png</frame>
   </frames>

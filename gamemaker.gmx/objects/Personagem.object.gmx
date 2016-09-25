@@ -79,10 +79,11 @@ alarm_set(0, 20);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>target_y = 70 * lane + 100
+            <string>target_y = 200 * lane + 200
 prev_hspeed = hspeed;
-if point_distance(x, y, x, target_y) &gt; 5
-    move_towards_point(x, target_y, 5);
+move_vspeed = 30
+if point_distance(x, y, x, target_y) &gt; move_vspeed
+    move_towards_point(x, target_y, move_vspeed);
 else {
     vspeed = 0;
     y = target_y;

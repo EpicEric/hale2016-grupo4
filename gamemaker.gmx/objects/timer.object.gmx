@@ -106,6 +106,56 @@
         </arguments>
       </action>
     </event>
+    <event eventtype="2" enumb="4">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>with (rain_obj)
+    instance_destroy();
+nuvem.visible = false;
+sol.visible = true;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>instance_create(0, 0, rain_obj);
+alarm_set(4, 90 + irandom(30));
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="2" enumb="2">
       <action>
         <libid>1</libid>
@@ -192,20 +242,20 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>esta_chovendo = false;
-if(random(10) &gt; 5){
+            <string>if(random(10) &gt; 5){
+    alarm_set(3, 60);
     esta_chovendo = true;
     nuvem.visible = true;
     sol.visible = false;
+    alarm_set(0, 300);
 } else {
     esta_chovendo = false;
     nuvem.visible = false;
     sol.visible = true;
+    if counter &gt; 40 counter = 0.95*counter;
+    else counter = 40;
+    alarm_set(0,counter);
 }
-
-if counter &gt; 40 counter = 0.95*counter;
-else counter = 40;
-alarm_set(0,counter);
 
 </string>
           </argument>
