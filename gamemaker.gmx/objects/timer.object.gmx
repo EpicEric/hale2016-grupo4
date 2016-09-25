@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>10</string>
+            <string>100</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -274,7 +274,7 @@ alarm_set(4, 90 + irandom(30));
           <argument>
             <kind>1</kind>
             <string>if(random(10) &gt; 5){
-    alarm_set(3, 100);
+    alarm_set(3, 200);
     global.weatherChange = ! global.chuva;
     global.chuva = true;
     global.speed_limit = 0.75;
@@ -289,8 +289,8 @@ alarm_set(4, 90 + irandom(30));
     global.speed_limit = 1.5;
     nuvem.visible = false;
     sol.visible = true;
-    if counter &gt; 40 counter = 0.95*counter;
-    else counter = 40;
+    if counter &gt; 200 counter = 0.95*counter;
+    else counter = 200;
     alarm_set(0,counter);
 }
 

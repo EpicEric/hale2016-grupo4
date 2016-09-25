@@ -3,7 +3,7 @@
   <spriteName>runner</spriteName>
   <solid>-1</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-3</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -31,8 +31,7 @@ global.swipe_start_y = mouse_y;
 global.game_running = true;
 global.decreaseStamina = true;
 image_speed = 1.5;
-lane = 1
-alarm_set(0, 20);
+lane = 1;
 </string>
           </argument>
         </arguments>
@@ -58,33 +57,6 @@ alarm_set(0, 20);
           <argument>
             <kind>0</kind>
             <string>100</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if (global.speed &gt; 0.2) {
-  global.speed *= 0.85;
-  Personagem.image_speed = global.speed;
-}
-alarm_set(0, 20);
-</string>
           </argument>
         </arguments>
       </action>
@@ -119,6 +91,11 @@ hspeed = prev_hspeed;
 if(!casa.esta_na_casa) 
     background_hspeed[7] = - 5 * global.speed;
 
+if (global.speed &gt; 0.2) {
+  global.speed *= 0.99;
+  Personagem.image_speed = global.speed;
+}    
+    
 // Cheacks stamina
 
 if (global.speed &gt; global.speed_limit &amp;&amp; global.decreaseStamina) {

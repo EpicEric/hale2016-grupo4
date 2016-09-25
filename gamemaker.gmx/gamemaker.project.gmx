@@ -36,6 +36,7 @@
       <sprite>sprites\DisclaimerSprite</sprite>
       <sprite>sprites\textofdisclaimer</sprite>
     </sprites>
+    <sprite>sprites\sprite26</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -61,6 +62,9 @@
       <object>objects\timer</object>
       <object>objects\sol</object>
       <object>objects\nuvem</object>
+      <object>objects\enemy</object>
+      <object>objects\casa</object>
+      <object>objects\ceu</object>
       <object>objects\grass</object>
       <objects name="gui">
         <objects name="button">
@@ -71,8 +75,6 @@
           <object>objects\stamina_mark</object>
         </objects>
       </objects>
-      <object>objects\enemy</object>
-      <object>objects\casa</object>
     </objects>
     <object>objects\swipe_control</object>
     <object>objects\bombinha</object>

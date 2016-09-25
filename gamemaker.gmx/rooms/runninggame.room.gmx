@@ -56,21 +56,18 @@ global.decreaseStamina = true;</code>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="self" x="352" y="384" name="inst_D2FC16FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="self" x="352" y="256" name="inst_08B42221" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="self" x="320" y="96" name="inst_0DDE11D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Personagem" x="160" y="320" name="inst_5EC16B7A" locked="0" code="" scaleX="0.428571432828903" scaleY="0.470588237047195" colour="4294967295" rotation="0"/>
     <instance objName="timer" x="128" y="32" name="inst_AF94A22F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="sol" x="736" y="0" name="inst_1540E0E0" locked="0" code="" scaleX="0.473684221506119" scaleY="0.441379308700562" colour="4294967295" rotation="0"/>
-    <instance objName="nuvem" x="544" y="0" name="inst_DB3B7C15" locked="0" code="" scaleX="0.800000011920929" scaleY="0.639999985694885" colour="4294967295" rotation="0"/>
+    <instance objName="sol" x="1152" y="0" name="inst_1540E0E0" locked="0" code="" scaleX="0.473684221506119" scaleY="0.441379308700562" colour="4294967295" rotation="0"/>
+    <instance objName="nuvem" x="0" y="-96" name="inst_DB3B7C15" locked="0" code="" scaleX="0.583166360855103" scaleY="0.540983617305756" colour="4294967295" rotation="0"/>
     <instance objName="run_button" x="32" y="577" name="inst_624287B6" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="button_area" x="18" y="564" name="inst_BB57C533" locked="0" code="" scaleX="2.5" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="swipe_control" x="0" y="0" name="inst_B54946AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="casa" x="1024" y="0" name="inst_EAAF9998" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemy" x="1920" y="1248" name="inst_4EA89DF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="bar" x="131" y="617" name="inst_440959C2" locked="0" code="" scaleX="0.490000009536743" scaleY="0.756756782531738" colour="4294967295" rotation="0"/>
     <instance objName="limit" x="125" y="579" name="inst_EF888A0A" locked="0" code="" scaleX="0.962962985038757" scaleY="0.670000016689301" colour="4294967295" rotation="0"/>
     <instance objName="stamina_mark" x="145" y="622" name="inst_8559A76B" locked="0" code="" scaleX="0.75" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ceu" x="-160" y="0" name="inst_982684CD" locked="0" code="" scaleX="4.8033332824707" scaleY="0.802083313465118" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
