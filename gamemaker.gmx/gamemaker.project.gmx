@@ -63,7 +63,6 @@
     </objects>
   </objects>
   <timelines name="timelines">
-    <timeline>timelines\running</timeline>
     <timeline>timelines\enemySpawn</timeline>
     <timeline>timelines\button_press</timeline>
     <timeline>timelines\timeline3</timeline>
