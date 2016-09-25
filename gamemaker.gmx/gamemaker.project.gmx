@@ -27,6 +27,7 @@
     <sprite>sprites\mark</sprite>
     <sprite>sprites\redline</sprite>
     <sprite>sprites\speed_bar</sprite>
+    <sprite>sprites\clickable_square</sprite>
     <sprites name="menu">
       <sprite>sprites\BackButtonSprite</sprite>
       <sprite>sprites\LogoSprite</sprite>
@@ -76,7 +77,7 @@
       <object>objects\casa</object>
     </objects>
     <object>objects\swipe_control</object>
-    <object>objects\clickable_target</object>
+    <object>objects\bombinha</object>
     <objects name="roomgame">
       <object>objects\fallingObject</object>
       <object>objects\goodRoom</object>
@@ -86,6 +87,7 @@
     </objects>
     <object>objects\rain_obj</object>
     <object>objects\texto_ataque</object>
+    <object>objects\quadrado</object>
     <objects name="mainmenu">
       <object>objects\tutorialButton</object>
       <object>objects\playButton</object>
