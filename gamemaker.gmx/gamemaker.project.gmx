@@ -66,8 +66,8 @@
     <timeline>timelines\button_press</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\bedroomgame</room>
     <room>rooms\runninggame</room>
+    <room>rooms\bedroomgame</room>
     <room>rooms\mainmenu</room>
     <room>rooms\asthma_attack</room>
   </rooms>

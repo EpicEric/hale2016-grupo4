@@ -86,7 +86,7 @@ if bad {
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="goodRoom">
+    <event eventtype="4" ename="badRoom">
       <action>
         <libid>1</libid>
         <id>612</id>
@@ -107,7 +107,7 @@ if bad {
           </argument>
           <argument>
             <kind>0</kind>
-            <string>true</string>
+            <string>false</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -179,7 +179,7 @@ if bad {
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="badRoom">
+    <event eventtype="4" ename="goodRoom">
       <action>
         <libid>1</libid>
         <id>612</id>
@@ -200,7 +200,7 @@ if bad {
           </argument>
           <argument>
             <kind>0</kind>
-            <string>false</string>
+            <string>true</string>
           </argument>
           <argument>
             <kind>4</kind>
