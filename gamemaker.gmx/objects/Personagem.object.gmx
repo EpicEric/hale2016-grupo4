@@ -117,6 +117,40 @@
         </arguments>
       </action>
     </event>
+    <event eventtype="6" enumb="56">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>show_debug_message("Release mouse");
+if swipe_check() {
+    show_debug_message("Swipe " + swipe_direction());
+    switch swipe_direction() {
+    case "up":
+        move_towards_point(x, y - 10, 10);
+        break;
+    case "down":
+        move_towards_point(x, y + 10, 10);
+        break;
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="10" enumb="40">
       <action>
         <libid>1</libid>
