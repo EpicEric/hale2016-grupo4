@@ -52,10 +52,9 @@
   </views>
   <instances>
     <instance objName="menuButton" x="992" y="0" name="inst_55571E7F" locked="0" code="" scaleX="0.600000023841858" scaleY="0.600000023841858" colour="4294967295" rotation="0"/>
-    <instance objName="nextButton" x="1024" y="576" name="inst_620E1A12" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="tut11Text" x="32" y="192" name="inst_9CB738B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="tut12Text" x="32" y="288" name="inst_F67444A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="tut13Text" x="32" y="384" name="inst_F06FDBC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tut31Text" x="32" y="192" name="inst_C5F24522" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tut32Text" x="32" y="288" name="inst_C592D4D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="backButton" x="0" y="576" name="inst_7CEC7D00" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -23,6 +23,8 @@
       <sprite>sprites\LogoSprite</sprite>
       <sprite>sprites\PlayButtonSprite</sprite>
       <sprite>sprites\TutorialButtonSprite</sprite>
+      <sprite>sprites\MenuButtonSprite</sprite>
+      <sprite>sprites\NextButtonSprite</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -69,8 +71,17 @@
       <object>objects\tutorialButton</object>
       <object>objects\playButton</object>
       <object>objects\menuButton</object>
+      <object>objects\nextButton</object>
+      <object>objects\backButton</object>
       <object>objects\title</object>
       <object>objects\menuText</object>
+      <object>objects\tut11Text</object>
+      <object>objects\tut12Text</object>
+      <object>objects\tut13Text</object>
+      <object>objects\tut21Text</object>
+      <object>objects\tut22Text</object>
+      <object>objects\tut31Text</object>
+      <object>objects\tut32Text</object>
     </objects>
   </objects>
   <timelines name="timelines">
@@ -85,6 +96,8 @@
     <room>rooms\asthma_attack</room>
     <rooms name="tutorial">
       <room>rooms\tut1</room>
+      <room>rooms\tut2</room>
+      <room>rooms\tut3</room>
     </rooms>
   </rooms>
   <help>
