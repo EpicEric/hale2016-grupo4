@@ -21,6 +21,9 @@
     <sprite>sprites\blank</sprite>
     <sprite>sprites\rain</sprite>
     <sprite>sprites\sprite_bombinha</sprite>
+    <sprite>sprites\mark</sprite>
+    <sprite>sprites\redline</sprite>
+    <sprite>sprites\speed_bar</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -49,6 +52,9 @@
         <objects name="button">
           <object>objects\run_button</object>
           <object>objects\button_area</object>
+          <object>objects\bar</object>
+          <object>objects\limit</object>
+          <object>objects\stamina_mark</object>
         </objects>
       </objects>
       <object>objects\enemy</object>
@@ -72,6 +78,7 @@
   </timelines>
   <rooms name="rooms">
     <room>rooms\runninggame</room>
+    <room>rooms\bedroomgame</room>
     <room>rooms\mainmenu</room>
     <room>rooms\asthma_attack</room>
     <room>rooms\bedroomgame</room>

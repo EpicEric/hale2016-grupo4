@@ -38,6 +38,32 @@ alarm_set(0, 20);
     <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>stamina</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>100</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
         <id>603</id>
         <kind>7</kind>
         <userelative>0</userelative>
@@ -89,8 +115,18 @@ else {
     y = target_y;
 }
 hspeed = prev_hspeed;
-if(!casa.esta_na_casa)
+if(!casa.esta_na_casa) 
     background_hspeed[7] = - 5 * global.speed;
+
+// Cheacks stamina
+
+if (global.speed &gt; global.speed_limit &amp;&amp; global.decreaseStamina) {
+    self.stamina -= (global.speed - global.speed_limit) * 2;
+    self.stamina = max(0, self.stamina);
+} else if (global.speed &lt; 0.75 * global.speed_limit) {
+    self.stamina += 10;
+    self.stamina = min(self.stamina, 100);
+}
 
 </string>
           </argument>
