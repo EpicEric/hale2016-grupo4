@@ -45,6 +45,7 @@
       </objects>
       <object>objects\enemy</object>
     </objects>
+    <object>objects\swipe_control</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\running</timeline>
