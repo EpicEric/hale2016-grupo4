@@ -15,9 +15,11 @@
     <sprite>sprites\cat</sprite>
     <sprite>sprites\dust</sprite>
     <sprite>sprites\smog</sprite>
+    <sprite>sprites\sprite_grass</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\background1_grass</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -35,6 +37,7 @@
       <object>objects\timer</object>
       <object>objects\sol</object>
       <object>objects\nuvem</object>
+      <object>objects\grass</object>
     </objects>
     <object>objects\enemy</object>
   </objects>

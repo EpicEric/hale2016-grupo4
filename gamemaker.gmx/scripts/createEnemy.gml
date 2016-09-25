@@ -7,6 +7,6 @@ if (instance_exists(enemy_id)) {
   (enemy_id).image_speed = 0;
   (enemy_id).image_xscale = 0.3;
   (enemy_id).image_yscale = 0.3;
-  (enemy_id).speed = - 5 * character.image_speed;
+  (enemy_id).speed = - 5 * Personagem.image_speed;
 }
- 
+

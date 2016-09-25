@@ -75,12 +75,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(random(10) &gt; 5){
+            <string>esta_chovendo = false;
+if(random(10) &gt; 5){
     show_debug_message('choveu');
+    esta_chovendo = true;
     nuvem.visible = true;
     sol.visible = false;
 } else {
     show_debug_message('sol');
+    esta_chovendo = false;
     nuvem.visible = false;
     sol.visible = true;
 }
