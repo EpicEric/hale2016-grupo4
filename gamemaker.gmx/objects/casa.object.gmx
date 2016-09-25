@@ -80,9 +80,14 @@
     background_hspeed[7] = 0;
     casa.hspeed = 0;
     enemy.hspeed = 0;
-    esta_na_casa = 1;    
+    esta_na_casa = 1;
+    with(enemy){
+        instance_destroy();
+    }
+    
 }
 if(!timer.esta_chovendo &amp;&amp; esta_na_casa) {
+    script_execute(createEnemy);
     Personagem.visible = 1;
     background_hspeed[7] = -10;
     casa.hspeed = -10;
