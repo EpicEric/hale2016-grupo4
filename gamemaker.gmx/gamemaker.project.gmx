@@ -38,11 +38,14 @@
       <object>objects\sol</object>
       <object>objects\nuvem</object>
       <object>objects\grass</object>
+      <objects name="gui">
+        <object>objects\run_button</object>
+      </objects>
     </objects>
     <object>objects\enemy</object>
   </objects>
   <timelines name="timelines">
-    <timeline>timelines\runningStart</timeline>
+    <timeline>timelines\running</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\runninggame</room>

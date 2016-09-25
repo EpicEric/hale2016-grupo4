@@ -61,6 +61,7 @@
     <instance objName="enemy" x="736" y="224" name="inst_4F4E6410" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="pista" x="0" y="192" name="inst_E1962FD9" locked="0" code="" scaleX="3.35999989509583" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="pista" x="0" y="512" name="inst_60908626" locked="0" code="" scaleX="3.35999989509583" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="run_button" x="512" y="416" name="inst_624287B6" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
