@@ -21,6 +21,7 @@
     <sprite>sprites\blank</sprite>
     <sprite>sprites\rain</sprite>
     <sprite>sprites\sprite_bombinha</sprite>
+    <sprite>sprites\sprite_texto</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -64,6 +65,7 @@
       <object>objects\downwardSpawner</object>
     </objects>
     <object>objects\rain_obj</object>
+    <object>objects\texto_ataque</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\enemySpawn</timeline>
@@ -71,9 +73,9 @@
     <timeline>timelines\timeline3</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\asthma_attack</room>
     <room>rooms\runninggame</room>
     <room>rooms\mainmenu</room>
-    <room>rooms\asthma_attack</room>
     <room>rooms\bedroomgame</room>
   </rooms>
   <help>

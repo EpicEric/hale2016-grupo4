@@ -52,6 +52,7 @@
   </views>
   <instances>
     <instance objName="clickable_target" x="224" y="224" name="inst_9E754717" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="texto_ataque" x="0" y="640" name="inst_C6A04BE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
