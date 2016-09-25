@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\cough</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\runner</sprite>
     <sprite>sprites\sprite2</sprite>
@@ -15,6 +17,7 @@
     <sprite>sprites\cat</sprite>
     <sprite>sprites\dust</sprite>
     <sprite>sprites\smog</sprite>
+    <sprite>sprites\blank</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -28,6 +31,9 @@
     <script>scripts\createEnemy.gml</script>
     <script>scripts\initCharacter.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\sansserif</font>
+  </fonts>
   <objects name="objects">
     <objects name="runningame">
       <object>objects\Personagem</object>
@@ -35,6 +41,13 @@
       <object>objects\timer</object>
       <object>objects\sol</object>
       <object>objects\nuvem</object>
+    </objects>
+    <objects name="sleepinggame">
+      <object>objects\badRoom</object>
+      <object>objects\controller</object>
+      <object>objects\downwardSpawner</object>
+      <object>objects\fallingObject</object>
+      <object>objects\goodRoom</object>
     </objects>
     <object>objects\enemy</object>
     <object>objects\swipe_control</object>
@@ -44,6 +57,7 @@
   </timelines>
   <rooms name="rooms">
     <room>rooms\runninggame</room>
+    <room>rooms\bedroomgame</room>
     <room>rooms\mainmenu</room>
   </rooms>
   <help>
