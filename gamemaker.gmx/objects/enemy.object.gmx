@@ -49,6 +49,7 @@
           <argument>
             <kind>1</kind>
             <string>if global.game_running
+    Personagem.stamina -= 15;
     createEnemy()
 instance_destroy();
 </string>
