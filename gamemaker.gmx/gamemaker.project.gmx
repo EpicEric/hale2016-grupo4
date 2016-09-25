@@ -26,6 +26,7 @@
       <sprite>sprites\MenuButtonSprite</sprite>
       <sprite>sprites\NextButtonSprite</sprite>
       <sprite>sprites\DisclaimerSprite</sprite>
+      <sprite>sprites\textofdisclaimer</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
