@@ -46,6 +46,7 @@
       <object>objects\enemy</object>
     </objects>
     <object>objects\swipe_control</object>
+    <object>objects\clickable_target</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\running</timeline>
@@ -55,6 +56,7 @@
   <rooms name="rooms">
     <room>rooms\runninggame</room>
     <room>rooms\mainmenu</room>
+    <room>rooms\asthma_attack</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
