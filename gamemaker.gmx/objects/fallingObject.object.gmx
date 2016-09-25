@@ -31,10 +31,13 @@ else bad = false;
 vspeed = random_range(3.5,6);
 grabbed = false;
 
+image_speed = 0;
 if bad {
-    image_blend = c_red;
+    sprite_index = room_bad;
+    image_index = irandom(3);
 } else {
-    image_blend = c_lime;
+    sprite_index = room_good;
+    image_index = irandom(1);
 }
 </string>
           </argument>

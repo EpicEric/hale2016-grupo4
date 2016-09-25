@@ -14,6 +14,8 @@
     <sprite>sprites\sprite_sol</sprite>
     <sprite>sprites\sprite_nuvem</sprite>
     <sprite>sprites\enemies</sprite>
+    <sprite>sprites\room_bad</sprite>
+    <sprite>sprites\room_good</sprite>
     <sprite>sprites\sprite_grass</sprite>
     <sprite>sprites\button</sprite>
     <sprite>sprites\sprite8</sprite>
@@ -109,10 +111,10 @@
     <timeline>timelines\timeline3</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\mainmenu</room>
     <room>rooms\bedroomgame</room>
-    <room>rooms\asthma_attack</room>
     <room>rooms\runninggame</room>
+    <room>rooms\mainmenu</room>
+    <room>rooms\asthma_attack</room>
     <room>rooms\disclaimer</room>
     <rooms name="tutorial">
       <room>rooms\tut1</room>
