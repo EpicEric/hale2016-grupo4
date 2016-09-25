@@ -56,8 +56,8 @@
     <timeline>timelines\runningStart</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\runninggame</room>
     <room>rooms\bedroomgame</room>
+    <room>rooms\runninggame</room>
     <room>rooms\mainmenu</room>
   </rooms>
   <help>
