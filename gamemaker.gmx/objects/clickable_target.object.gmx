@@ -38,7 +38,7 @@ state = 0;
         </arguments>
       </action>
     </event>
-    <event eventtype="6" enumb="0">
+    <event eventtype="6" enumb="4">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -55,7 +55,8 @@ state = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>state += 1;
+            <string>show_message('teste');
+state += 1;
 if state &lt; 5 {
     x = target[state, 0]; y = target[state, 1];
     image_index = state;

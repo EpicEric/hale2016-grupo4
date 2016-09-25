@@ -25,6 +25,7 @@
     <sprite>sprites\mark</sprite>
     <sprite>sprites\redline</sprite>
     <sprite>sprites\speed_bar</sprite>
+    <sprite>sprites\clickable_square</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -63,7 +64,7 @@
       <object>objects\casa</object>
     </objects>
     <object>objects\swipe_control</object>
-    <object>objects\clickable_target</object>
+    <object>objects\bombinha</object>
     <objects name="roomgame">
       <object>objects\fallingObject</object>
       <object>objects\goodRoom</object>
@@ -73,6 +74,7 @@
     </objects>
     <object>objects\rain_obj</object>
     <object>objects\texto_ataque</object>
+    <object>objects\quadrado</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\enemySpawn</timeline>
@@ -80,9 +82,9 @@
     <timeline>timelines\timeline3</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\bedroomgame</room>
     <room>rooms\asthma_attack</room>
     <room>rooms\runninggame</room>
+    <room>rooms\bedroomgame</room>
     <room>rooms\mainmenu</room>
   </rooms>
   <help>
