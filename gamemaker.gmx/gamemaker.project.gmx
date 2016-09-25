@@ -84,7 +84,6 @@
     <room>rooms\runninggame</room>
     <room>rooms\bedroomgame</room>
     <room>rooms\mainmenu</room>
-    <room>rooms\bedroomgame</room>
     <room>rooms\asthma_attack</room>
   </rooms>
   <help>
