@@ -37,6 +37,7 @@
     <script>scripts\swipe_direction.gml</script>
     <script>scripts\createEnemy.gml</script>
     <script>scripts\initCharacter.gml</script>
+    <script>scripts\moveMark.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\sansserif</font>
@@ -81,7 +82,6 @@
     <room>rooms\bedroomgame</room>
     <room>rooms\mainmenu</room>
     <room>rooms\asthma_attack</room>
-    <room>rooms\bedroomgame</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

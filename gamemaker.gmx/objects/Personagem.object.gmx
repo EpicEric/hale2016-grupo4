@@ -27,36 +27,11 @@
             <kind>1</kind>
             <string>global.speed = 1.5;
 global.game_running = true;
-Personagem.image_speed = 1.5;
+image_speed = 1.5;
+stamina = 1;
 lane = 1
 alarm_set(0, 20);
 </string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>stamina</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>100</string>
           </argument>
         </arguments>
       </action>
