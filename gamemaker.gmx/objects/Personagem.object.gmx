@@ -89,8 +89,8 @@ else {
     y = target_y;
 }
 hspeed = prev_hspeed;
-
-background_hspeed[7] = - 5 * global.speed;
+if(!casa.esta_na_casa)
+    background_hspeed[7] = - 5 * global.speed;
 
 </string>
           </argument>
