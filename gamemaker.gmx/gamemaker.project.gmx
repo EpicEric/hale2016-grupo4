@@ -25,6 +25,16 @@
     <sprite>sprites\mark</sprite>
     <sprite>sprites\redline</sprite>
     <sprite>sprites\speed_bar</sprite>
+    <sprites name="menu">
+      <sprite>sprites\BackButtonSprite</sprite>
+      <sprite>sprites\LogoSprite</sprite>
+      <sprite>sprites\PlayButtonSprite</sprite>
+      <sprite>sprites\TutorialButtonSprite</sprite>
+      <sprite>sprites\MenuButtonSprite</sprite>
+      <sprite>sprites\NextButtonSprite</sprite>
+      <sprite>sprites\DisclaimerSprite</sprite>
+      <sprite>sprites\textofdisclaimer</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -74,6 +84,24 @@
     </objects>
     <object>objects\rain_obj</object>
     <object>objects\texto_ataque</object>
+    <objects name="mainmenu">
+      <object>objects\tutorialButton</object>
+      <object>objects\playButton</object>
+      <object>objects\menuButton</object>
+      <object>objects\nextButton</object>
+      <object>objects\backButton</object>
+      <object>objects\disclaimerButton</object>
+      <object>objects\title</object>
+      <object>objects\menuText</object>
+      <object>objects\tut11Text</object>
+      <object>objects\tut12Text</object>
+      <object>objects\tut13Text</object>
+      <object>objects\tut21Text</object>
+      <object>objects\tut22Text</object>
+      <object>objects\tut31Text</object>
+      <object>objects\tut32Text</object>
+      <object>objects\disclaimerText</object>
+    </objects>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\enemySpawn</timeline>
@@ -81,10 +109,16 @@
     <timeline>timelines\timeline3</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\mainmenu</room>
     <room>rooms\bedroomgame</room>
     <room>rooms\asthma_attack</room>
     <room>rooms\runninggame</room>
-    <room>rooms\mainmenu</room>
+    <room>rooms\disclaimer</room>
+    <rooms name="tutorial">
+      <room>rooms\tut1</room>
+      <room>rooms\tut2</room>
+      <room>rooms\tut3</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
