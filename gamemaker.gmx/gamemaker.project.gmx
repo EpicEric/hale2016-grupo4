@@ -19,6 +19,7 @@
     <sprite>sprites\sprite8</sprite>
     <sprite>sprites\sprite_casa</sprite>
     <sprite>sprites\blank</sprite>
+    <sprite>sprites\sprite_bombinha</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -68,10 +69,10 @@
     <timeline>timelines\timeline3</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\asthma_attack</room>
     <room>rooms\runninggame</room>
     <room>rooms\bedroomgame</room>
     <room>rooms\mainmenu</room>
-    <room>rooms\asthma_attack</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

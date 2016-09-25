@@ -6,7 +6,7 @@
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
-  <maskName>blank</maskName>
+  <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
       <action>
@@ -25,43 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_index = 0;
-image_speed = 0;
-target[0, 0] = 5; target[0, 1] = 5;
-target[1, 0] = 50; target[1, 1] = 50;
-target[2, 0] = 100; target[2, 1] = 80;
-target[3, 0] = 200; target[3, 1] = 70;
-target[4, 0] = 300; target[4, 1] = 100;
-state = 0;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="6" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>state += 1;
-if state &lt; array_height_2d(target) {
-    x = target[state, 0]; y = target[state, 1];
-    image_index = state;
-} else {
-    show_debug_message("ACABOU");
-}
+            <string>image_speed = 0;
+image_index = 0;
 </string>
           </argument>
         </arguments>
